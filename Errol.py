@@ -1,1 +1,13 @@
+a = int(input())
+b = int(input())
 
+s = a + b
+diff = a - b
+prod = a * b
+
+if b == 0:
+    print(f"сумма={s}, разность={diff}, произведение={prod}, деление на ноль")
+else:
+    div = round(a / b, 2)
+    mod = a % b
+    print(f"сумма={s}, разность={diff}, произведение={prod}, частное={div}, остаток={mod}")
